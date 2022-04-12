@@ -17,7 +17,7 @@ function Nav() {
         <Link to="/mylistpage" className={styles.content}>
           <strong className={styles.link}>My 배민</strong>
         </Link>
-        aaa
+        aaa bbbb
       </div>
       <hr />
     </div>
