@@ -1,0 +1,42 @@
+p {
+  margin: 0;
+}
+/* 전체창 크기 및 색 */
+.main {
+  display: block;
+  text-align: center;
+  margin: 100px auto;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+}
+/* 아이디 패스워드 입력창 */
+.login {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+}
+/* 로그인 버튼 */
+.btn {
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 60px;
+  background-color: lightblue;
+  border: 5px solid lightblue;
+}
+/* 로그인 배달의 민족 */
+.titleimg {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.make {
+  display: inline;
+  text-decoration: none;
+  margin-top: 0;
+  color: black;
+}

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+/* 전체 박스 */
+.main {
+  margin: 0;
+}
+/* 제목 */
+.title {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: xx-large;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #fff;
+}
+/* 배달의 민족 이미지 (/Home) */
+.titleimg {
+  width: 400px;
+  height: 100%;
+  margin: 0;
+}
+
+.contentbox {
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: xx-large;
+}
+/* 로그인, My배민 */
+.content {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0 50px;
+  margin-bottom: 30px;
+  width: 20%;
+  font-size: 1rem;
+}
+
+.content:hover {
+  color: white;
+  background-color: rgb(80, 80, 80, 1);
+}
+.link {
+  font-size: 0.8rem;
+}

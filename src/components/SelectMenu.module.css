@@ -1,0 +1,39 @@
+/* 전체 박스 */
+.MainBox {
+  display: block;
+  border: 5px solid black;
+  border-radius: 2vw;
+  margin: 2vw auto;
+  text-align: center;
+  width: 90%;
+}
+/* 메뉴박스 */
+.menu {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: #fff;
+  color: black;
+  margin: 1vw auto;
+  border: 3px solid black;
+  width: 80%;
+}
+.menu:hover {
+  background-color: #fff;
+  color: black;
+}
+/* 메뉴이름 */
+.MenuName {
+  display: inline-block;
+  position: absolute;
+  width: 43.5%;
+  height: 1%;
+  text-align: center;
+  margin-top: 20px;
+}
+.img {
+  display: inline;
+  width: 40%;
+  height: 25vw;
+  margin: 0;
+}
