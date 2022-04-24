@@ -5,7 +5,7 @@ p {
 .main {
   display: block;
   text-align: center;
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 20px;
   border: 3px solid black;
   border-radius: 10px;

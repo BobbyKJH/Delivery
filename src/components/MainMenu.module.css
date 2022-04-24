@@ -1,10 +1,12 @@
 .mainbox {
   display: block;
   border: 5px solid black;
-  border-radius: 2vw;
+  border-radius: 0;
   margin: 2vw auto;
   text-align: center;
-  width: 90%;
+  width: 80%;
+  height: 1000px;
+  overflow: auto;
 }
 /* 메뉴박스 */
 .menu {
@@ -12,7 +14,7 @@
   display: inline-block;
   background-color: black;
   color: #fff;
-  margin: 3vw;
+  margin: 2vw;
   border: 3px solid black;
   width: 25%;
 }
@@ -23,7 +25,7 @@
 /* 메뉴이름 */
 .MenuName {
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 12px;
   margin: 0;
 }
 .img {
