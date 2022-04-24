@@ -2,20 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "./SelectMenu.module.css";
 
 function SelectMenu() {
-  // useEffect(() => {
-  //   let json = JSON.stringify(menus);
-  //   console.log(json);
-  // }, []);
-  // return (
-  //   <div className={styles.MainBox}>
-  //     {menus.map((menu) => (
-  //       <div to={menu.Link} className={styles.menu} key={menu.id}>
-  //         <img src={menu.url} className={styles.img} />
-  //         <p className={styles.MenuName}>{menu.name}</p>
-  //       </div>
-  //     ))}
-  //   </div>
-  // );
   const [loading, setLoading] = useState(true);
   const [menus, setMenus] = useState([]);
 

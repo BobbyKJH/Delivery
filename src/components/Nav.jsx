@@ -5,21 +5,15 @@ function Nav() {
   return (
     <div className={styles.main}>
       <Link to="/" className={styles.title}>
-        <img
-          src="https://blog.kakaocdn.net/dn/ctocdN/btqBAWoc5kx/SUn5JU5g0QIp6WEmm5A541/img.jpg"
-          className={styles.titleimg}
-        />
+        배달의 민족
       </Link>
-      <div className={styles.contentbox}>
-        <Link to="/loginpage" className={styles.content}>
-          <strong className={styles.link}>로그인</strong>
-        </Link>
-        <Link to="/mylistpage" className={styles.content}>
-          <strong className={styles.link}>My 배민</strong>
-        </Link>
-        aaa bbbb
-      </div>
-      <hr />
+
+      <Link to="/loginpage" className={styles.content}>
+        로그인
+      </Link>
+      <Link to="/mylistpage" className={styles.content}>
+        My 배민
+      </Link>
     </div>
   );
 }

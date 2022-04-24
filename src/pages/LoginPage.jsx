@@ -4,10 +4,12 @@ import styles from "./LoginPage.module.css";
 
 function LoginPage() {
   return (
-    <div>
+    <>
       <Nav />
-      <Login />
-    </div>
+      <div className={styles.login}>
+        <Login />
+      </div>
+    </>
   );
 }
 export default LoginPage;
